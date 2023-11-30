@@ -5,5 +5,7 @@ for i in 1..20
         puts "Fizz!"
     elsif i%5==0
         puts "Buzz!"
+    else
+        puts "#{i}"
     end
 end
